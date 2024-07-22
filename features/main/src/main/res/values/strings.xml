@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">GraduationTestAssignment</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="test_txt">Я люблю члены</string>
+    <string name="item_txt_1">Earth (Replacement Dimension)</string>
+    <string name="item_txt2">Last known location:</string>
+    <string name="item_txt3">Male</string>
+    <string name="item_txt4">- Alien</string>
+    <string name="item_txt5">Dead</string>
+    <string name="item_txt6">Rick Sanchez</string>
+    <string name="sort">🔃</string>
+    <string name="txt_character">Персонажи</string>
+    <string name="txt_episodes">Эпизоды</string>
+    <string name="txt_location">Локации</string>
+    <string name="txt_sort_btn">Фильтрануть</string>
+    <string name="txt_filter">Выберите категории</string>
+    <string name="txt_status">Статус</string>
+    <string name="txt_alive">Жив</string>
+    <string name="txt_dead">Мертв</string>
+    <string name="txt_unknown">Неизвестно</string>
+    <string name="txt_rase">Раса</string>
+    <string name="txt_human">Человек</string>
+    <string name="txt_humanoid">Гуманоид</string>
+    <string name="txt_alien">Пришелец</string>
+    <string name="txt_gender">Пол</string>
+    <string name="txt_female">Девушка</string>
+    <string name="txt_male">Мужчина</string>
+    <string name="txt_filtered">Фильтровать</string>
+    <string name="txt_non_filtred">Сбросить</string>
+</resources>

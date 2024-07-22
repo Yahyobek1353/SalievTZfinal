@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <RadioGroup
+        android:id="@+id/radioGroupStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="16dp">
+
+        <RadioButton
+            android:id="@+id/radioStatusAlive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Жив" />
+
+        <RadioButton
+            android:id="@+id/radioStatusDead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Мертв" />
+
+        <RadioButton
+            android:id="@+id/radioStatusUnknown"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Неизвестно" />
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/radioGroupSpecies"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="16dp">
+
+        <RadioButton
+            android:id="@+id/radioSpeciesHuman"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Человек" />
+
+        <RadioButton
+            android:id="@+id/radioSpeciesHumanoid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Гуманоид" />
+
+        <RadioButton
+            android:id="@+id/radioSpeciesAlien"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Пришелец" />
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/radioGroupGender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="16dp">
+
+        <RadioButton
+            android:id="@+id/radioGenderMale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Мужской" />
+
+        <RadioButton
+            android:id="@+id/radioGenderFemale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Женский" />
+
+        <RadioButton
+            android:id="@+id/radioGenderUnknown"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Неизвестно" />
+    </RadioGroup>
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_apply_filters"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Применить" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_un_apply"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Сбросить" />
+</LinearLayout>
